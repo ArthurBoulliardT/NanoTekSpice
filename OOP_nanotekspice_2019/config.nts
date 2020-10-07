@@ -1,0 +1,154 @@
+.chipsets: #a
+clock c
+false f
+input i
+true t
+
+4081 and
+
+output c_output_and
+output t_output_and
+output f_output_and
+output i_output_and
+
+4071 or
+
+output c_output_or
+output t_output_or
+output f_output_or
+output i_output_or
+
+4069 not
+
+output c_output_not
+output t_output_not
+output f_output_not
+output i_output_not
+
+4030 xor
+
+output c_output_xor
+output t_output_xor
+output f_output_xor
+output i_output_xor
+
+4011 nand
+
+output c_output_nand
+output t_output_nand
+output f_output_nand
+output i_output_nand
+
+4001 nor
+
+output c_output_nor
+output t_output_nor
+output f_output_nor
+output i_output_nor
+
+4040 comp4040
+
+#output c_output_4040
+#output t_output_4040
+#output f_output_4040
+#output i_output_4040
+
+.links:
+
+c:1 and:1
+t:1 and:2
+
+t:1 and:5
+f:1 and:6
+
+t:1 and:8
+i:1 and:9
+
+t:1 and:12
+t:1 and:13
+
+c_output_and:1 and:3
+f_output_and:1 and:4
+i_output_and:1 and:10
+t_output_and:1 and:11
+
+c:1 or:1
+t:1 or:2
+
+t:1 or:5
+f:1 or:6
+
+t:1 or:8
+i:1 or:9
+
+t:1 or:12
+t:1 or:13
+
+c_output_or:1 or:3
+f_output_or:1 or:4
+i_output_or:1 or:10
+t_output_or:1 or:11
+
+c:1 not:1
+
+f:1 not:3
+
+i:1 not:5
+
+t:1 not:9
+
+c_output_not:1 not:2
+f_output_not:1 not:4
+i_output_not:1 not:6
+t_output_not:1 not:8
+
+c:1 xor:1
+t:1 xor:2
+
+t:1 xor:5
+f:1 xor:6
+
+t:1 xor:8
+i:1 xor:9
+
+t:1 xor:12
+t:1 xor:13
+
+c_output_xor:1 xor:3
+f_output_xor:1 xor:4
+i_output_xor:1 xor:10
+t_output_xor:1 xor:11
+
+c:1 nand:1
+t:1 nand:2
+
+t:1 nand:5
+f:1 nand:6
+
+t:1 nand:8
+i:1 nand:9
+
+t:1 nand:12
+t:1 nand:13
+
+c_output_nand:1 nand:3
+f_output_nand:1 nand:4
+i_output_nand:1 nand:10
+t_output_nand:1 nand:11
+
+c:1 nor:1
+t:1 nor:2
+
+t:1 nor:5
+f:1 nor:6
+
+t:1 nor:8
+i:1 nor:9
+
+t:1 nor:12
+t:1 nor:13
+
+c_output_nor:1 nor:3
+f_output_nor:1 nor:4
+i_output_nor:1 nor:10
+t_output_nor:1 nor:11

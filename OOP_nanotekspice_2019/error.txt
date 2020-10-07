@@ -1,0 +1,59 @@
+------------Build new Error logs------------
+Parsing the File:
+
+
+Section: .chipsets
+
+Parsing a content: input
+Got a chipset with type: input
+Parsing a content: a
+Want to create a chipset named a
+Creating the input component a
+Added it to the circuit
+
+Parsing a content: input
+Got a chipset with type: input
+Parsing a content: b
+Want to create a chipset named b
+Creating the input component b
+Added it to the circuit
+
+Parsing a content: 4071
+Got a chipset with type: 4071
+Parsing a content: or
+Want to create a chipset named or
+Creating the 4071 component or
+Added it to the circuit
+
+Parsing a content: output
+Got a chipset with type: output
+Parsing a content: s
+Want to create a chipset named s
+Creating the output component s
+Added it to the circuit
+
+Section: .links
+
+Parsing a content: a:1
+want to link a pin of a
+want to link is pin number 1
+want to link a pin of or
+want to link is pin number 1
+Linking a:1 with or:1
+
+Parsing a content: b:1
+want to link a pin of b
+want to link is pin number 1
+want to link a pin of or
+want to link is pin number 2
+Linking b:1 with or:2
+Parsing a commentary: #ajehncoa
+
+Parsing a content: or:3
+want to link a pin of or
+want to link is pin number 3
+want to link a pin of s
+want to link is pin number 1
+Linking or:3 with s:1
+File Error: syntax: probably forgot a #
+File Error: Wrong format for .links section
